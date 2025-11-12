@@ -1,0 +1,48 @@
+==========================================
+  AGENTIC AI RESEARCH ASSISTANT
+  Localhost URLs
+==========================================
+
+BACKEND API SERVER:
+http://localhost:8000
+
+API Documentation (Swagger UI):
+http://localhost:8000/docs
+
+Alternative API Docs (ReDoc):
+http://localhost:8000/redoc
+
+Health Check:
+http://localhost:8000/
+
+==========================================
+
+FRONTEND WEB INTERFACE:
+
+Option 1 - Direct File (Easiest):
+  File: frontend/index.html
+  Just double-click the file to open in browser
+
+Option 2 - Python HTTP Server:
+  Run: cd frontend && python -m http.server 8080
+  Then open: http://localhost:8080
+
+Option 3 - VS Code Live Server:
+  Right-click index.html -> "Open with Live Server"
+  Usually opens on: http://127.0.0.1:5500
+
+==========================================
+
+QUICK START:
+1. Backend is running on: http://localhost:8000
+2. Open frontend/index.html in your browser
+3. Fill in the faculty profile form
+4. Click "Start Analysis"
+
+==========================================
+
+TEST THE API:
+Open in browser: http://localhost:8000/
+You should see: {"status":"online","service":"Agentic AI Research Assistant","version":"1.0.0"}
+
+==========================================
